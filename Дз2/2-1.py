@@ -1,6 +1,7 @@
 print("Введите элемент")
-a = list(input())
-while (a[-1] != " "):
-    a += input()
-a.remove(" ")
-print(a)
+a = input()
+b = []
+while (a != " "):
+    b.append(a)
+    a = input()
+print(b)
