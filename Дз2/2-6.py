@@ -4,6 +4,6 @@ b = []
 print("Введите число")
 k = int(input())
 for i in a:
-    if i.isdigit() == True:
+    if i.isdigit():
        b.append(i)
-print(k, '-ая цифра в строке', b[k-1])
+print(k, '-ая цифра в строке', b[k - 1])

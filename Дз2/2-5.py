@@ -1,4 +1,4 @@
 print("Введите число")
-s = list(input())
+s = input()
 for i in s:
-    print(i, sep="\n")
+    print(i)

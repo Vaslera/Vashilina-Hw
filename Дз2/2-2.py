@@ -1,7 +1,7 @@
 print("Введите строку")
 b = input()
 a = []
-while (b != " "):
+while b != " ":
     a.append(b)
     b = input()
 a.sort()

@@ -1,7 +1,7 @@
 print("Введите элемент")
 a = input()
 b = []
-while (a != " "):
+while a != " ":
     b.append(a)
     a = input()
 print(b)

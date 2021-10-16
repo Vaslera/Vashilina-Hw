@@ -1,7 +1,4 @@
 print("Введите число")
 s = int(input())
-a = "*"
-while s > 0:
-    print(a)
-    a += "*"
-    s -= 1
+for i in range(1, s + 1):
+    print("*" * i)
